@@ -1,0 +1,55 @@
+<html>
+<head>  
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Pintura</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+    
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC&family=Annie+Use+Your+Telescope&family=Bagel+Fat+One&family=Barrio&family=Bungee&family=Cedarville+Cursive&family=Combo&family=Comfortaa:wght@300&family=Comforter&family=Cookie&family=Creepster&family=Dancing+Script:wght@400;500&family=DynaPuff&family=Flow+Circular&family=Indie+Flower&family=Lobster&family=Mynerve&family=Orbit&family=Orbitron&family=Pacifico&family=Rajdhani:wght@300;400;500&family=Raleway:wght@100;200&family=Righteous&family=Rubik+Glitch&family=Rubik+Spray+Paint&family=Rubik+Vinyl&family=Rubik+Wet+Paint&family=Satisfy&family=Shadows+Into+Light&family=VT323&family=Varela+Round&family=Yuji+Hentaigana+Akebono&display=swap" rel="stylesheet">
+</head>
+<body class="body_backgorund">
+
+<div>
+<h1 align="center">Pintura</h1>
+    <br>
+
+     <canvas id="myCanvas" width="600" height="400"></canvas>
+
+        <br><br >
+    <span class="idk">
+        <div> 
+            <span class="btn texto">Ancho de la línea</span>  
+            <input type="text" id="width_of_line">
+        </div>
+        <br><br> 
+        <div>      
+            <span class="btn texto">Color</span>  
+            <input type="text" id="color">
+        </div> 
+        <br><br>
+        <div> 
+            <span class="btn texto">Radio</span>  
+            <input type="text" id="radius">
+        </div> 
+        <br><br>
+        <button id="bt" onclick="clearArea();">Borrar</button>
+    </span>    
+        
+
+
+    </div>
+
+    <div class="copy_right_footer btn" onclick="alerta()">
+        Alex Mariles
+      </div>
+
+<script src="main.js"></script>
+</body>
+</html> 
